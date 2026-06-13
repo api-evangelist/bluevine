@@ -1,0 +1,23 @@
+name: Bluevine Rate Limits
+description: Rate limiting information for Bluevine platform and integrations. Bluevine does not publish a public developer API with documented rate limits. Access to account data is facilitated through third-party aggregators such as Plaid, which apply their own rate limiting policies.
+url: https://www.bluevine.com/
+created: 2026-06-13
+modified: 2026-06-13
+
+notes:
+  - Bluevine does not offer a public REST API with documented rate limits as of 2026-06-13
+  - Account data access is available via Plaid open banking integration
+  - QuickBooks Online integration syncs automatically without user-defined rate controls
+  - Direct API access is not publicly documented
+
+integrationRateLimits:
+
+  - provider: Plaid
+    description: Plaid rate limits apply when accessing Bluevine account data via Plaid API
+    url: https://plaid.com/docs/api/
+    notes: Refer to Plaid developer documentation for current rate limit details
+
+  - provider: QuickBooks Online
+    description: Automatic sync via native QuickBooks integration
+    url: https://developer.intuit.com/app/developer/qbo/docs/develop/rate-limits
+    notes: QuickBooks API rate limits apply for QBO integration

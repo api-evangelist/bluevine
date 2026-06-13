@@ -1,0 +1,94 @@
+aid: bluevine
+name: Bluevine
+description: Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools. The platform integrates with QuickBooks Online, accounting software, and payment processors via Plaid open banking, providing small businesses with FDIC-insured deposits up to $3 million, competitive APY, and fast access to revolving credit up to $250,000.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: '0.19'
+tags:
+  - Business Banking
+  - Small Business
+  - Fintech
+  - Line of Credit
+  - Bill Pay
+  - Invoicing
+  - Cash Flow
+  - Business Checking
+  - Open Banking
+  - Lending
+
+apis:
+
+  - aid: bluevine:business-checking
+    name: Bluevine Business Checking
+    description: Fully integrated business checking account with no monthly fees on standard tier, high-yield APY, unlimited transactions, bill pay, automated accounts payable, professional invoicing, and FDIC insurance up to $3 million. Connects with accounting software via Plaid and native QuickBooks Online integration.
+    humanURL: https://www.bluevine.com/business-checking/
+    baseURL: https://app.bluevine.com/
+    tags:
+      - Business Checking
+      - Banking
+      - Bill Pay
+      - Invoicing
+      - ACH
+      - Wire Transfer
+    properties:
+      - type: Documentation
+        url: https://www.bluevine.com/guides/checking/connecting-financial-apps
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
+
+  - aid: bluevine:line-of-credit
+    name: Bluevine Line of Credit
+    description: Revolving business line of credit up to $250,000 issued by Celtic Bank, with no maintenance fees, fee-free ACH draws, and funding in as fast as 24 hours. Requires 625+ personal FICO, 12+ months in business, and $120,000+ annual revenue. Instant funding available for Bluevine Business Checking account holders.
+    humanURL: https://www.bluevine.com/line-of-credit/
+    baseURL: https://app.bluevine.com/
+    tags:
+      - Line of Credit
+      - Business Lending
+      - Working Capital
+      - Revolving Credit
+    properties:
+      - type: Documentation
+        url: https://www.bluevine.com/guides/line-of-credit/how-to-apply
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
+
+common:
+
+  - type: Website
+    url: https://www.bluevine.com/
+
+  - type: Documentation
+    url: https://www.bluevine.com/guides/
+
+  - type: Blog
+    url: https://www.bluevine.com/blog/
+
+  - type: Pricing
+    url: https://www.bluevine.com/business-checking/
+
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bluevine
+
+  - type: X
+    url: https://x.com/bluevine
+
+  - type: GitHubOrg
+    url: https://github.com/bluevine-dev
+
+  - type: HelpCenter
+    url: https://support.bluevine.com/
+
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
+
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/rate-limits/bluevine-rate-limits.yml
+
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/finops/bluevine-finops.yml
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

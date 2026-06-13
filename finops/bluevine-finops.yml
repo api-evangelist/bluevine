@@ -1,0 +1,118 @@
+name: Bluevine FinOps
+description: Financial operations cost guidance for using Bluevine business banking and lending products
+url: https://www.bluevine.com/
+created: 2026-06-13
+modified: 2026-06-13
+
+bankingCosts:
+
+  monthlyFees:
+    - plan: Standard
+      fee: 0
+      currency: USD
+      notes: No monthly fee required; APY requires qualifying activity
+
+    - plan: Plus
+      fee: 30
+      currency: USD
+      notes: Waivable with qualifying activity
+
+    - plan: Premier
+      fee: 95
+      currency: USD
+      notes: Waivable with qualifying activity; offers highest APY at 3.0%
+
+  transactionFees:
+    - type: Standard ACH (outbound)
+      fee: 0
+      currency: USD
+
+    - type: Same-day ACH (outbound)
+      fee: varies
+      currency: USD
+      notes: Fee applies; check current rates at bluevine.com
+
+    - type: Domestic wire transfer
+      fee: varies
+      currency: USD
+      notes: Fee applies; check current rates at bluevine.com
+
+    - type: International wire transfer
+      fee: varies
+      currency: USD
+      notes: Fee applies; check current rates at bluevine.com
+
+    - type: Check payments (bill pay)
+      fee: 0
+      currency: USD
+      notes: Included in all plans
+
+    - type: ATM (in-network)
+      fee: 0
+      currency: USD
+
+    - type: ATM (out-of-network)
+      fee: varies
+      currency: USD
+
+  interestEarned:
+    - plan: Standard
+      apy: 1.3
+      maxBalance: 250000
+      currency: USD
+      requiresQualifyingActivity: true
+
+    - plan: Plus
+      apy: 1.75
+      maxBalance: 250000
+      currency: USD
+      requiresQualifyingActivity: false
+
+    - plan: Premier
+      apy: 3.0
+      maxBalance: unlimited
+      currency: USD
+      requiresQualifyingActivity: false
+
+lendingCosts:
+
+  lineOfCredit:
+    provider: Celtic Bank
+    maxAmount: 250000
+    currency: USD
+    rateType: variable
+    notes: Rates vary based on creditworthiness, FICO score, time in business, and payment history
+    drawFees:
+      - type: ACH draw
+        fee: 0
+        currency: USD
+
+      - type: Bank wire draw
+        fee: 15
+        currency: USD
+
+  termLoan:
+    maxAmount: 500000
+    currency: USD
+    provider: Partner lenders
+    notes: Rates and terms set by partner lenders; contact Bluevine for details
+
+integrationCosts:
+  - name: Plaid
+    description: No additional fees from Bluevine for Plaid connectivity; Plaid fees may apply to developers
+    url: https://plaid.com/pricing/
+
+  - name: QuickBooks Online Integration
+    description: No additional fees from Bluevine; QuickBooks subscription required separately
+    url: https://quickbooks.intuit.com/pricing/
+
+  - name: Stripe
+    description: Standard Stripe processing fees apply; no additional Bluevine fee
+    url: https://stripe.com/pricing
+
+cashBackRewards:
+  - name: Mastercard Easy Savings
+    rate: 4
+    rateUnit: percent
+    description: 4% cash back on eligible business purchases via Mastercard Easy Savings program
+    notes: Available on all Bluevine Business Checking debit card transactions at participating merchants
