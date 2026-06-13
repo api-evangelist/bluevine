@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.bluevine.com/",
+  "name": "Bluevine",
+  "url": "https://www.bluevine.com/",
+  "description": "Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools. The platform integrates with QuickBooks Online, accounting software, and payment processors via Plaid open banking, providing small businesses with FDIC-insured deposits up to $3 million, competitive APY, and fast access to revolving credit up to $250,000.",
+  "sameAs": [
+    "https://www.linkedin.com/company/bluevine",
+    "https://x.com/bluevine",
+    "https://github.com/bluevine-dev"
+  ],
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "United States"
+  },
+  "knowsAbout": [
+    "Business Banking",
+    "Small Business Lending",
+    "Business Checking Accounts",
+    "Line of Credit",
+    "Bill Pay",
+    "Invoicing",
+    "Cash Flow Management",
+    "Open Banking",
+    "Fintech"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Bluevine Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Bluevine Business Checking",
+        "description": "Fully integrated business checking account with no monthly fees on standard tier, high-yield APY, unlimited transactions, bill pay, automated accounts payable, professional invoicing, and FDIC insurance up to $3 million.",
+        "url": "https://www.bluevine.com/business-checking/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Bluevine Line of Credit",
+        "description": "Revolving business line of credit up to $250,000 issued by Celtic Bank, with no maintenance fees, fee-free ACH draws, and funding in as fast as 24 hours.",
+        "url": "https://www.bluevine.com/line-of-credit/"
+      }
+    ]
+  },
+  "subjectOf": [
+    {
+      "@type": "BlogPosting",
+      "headline": "2 in 3 small business owners lose sleep over their finances",
+      "url": "https://www.bluevine.com/blog/small-business-burnout-report",
+      "datePublished": "2026-05-19",
+      "author": {
+        "@type": "Person",
+        "name": "Ryan Hussey"
+      },
+      "description": "A survey of over 750 U.S. small business owners reveals that 71% experience significant financial stress affecting their sleep, decision-making, and personal income.",
+      "articleSection": "Industry insights"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "How to identify and avoid spoofing attacks: Websites and email",
+      "url": "https://www.bluevine.com/blog/what-is-a-spoofing-attack",
+      "datePublished": "2026-05-20",
+      "author": {
+        "@type": "Person",
+        "name": "Erin Barry"
+      },
+      "description": "This article explores spoofing attacks where scammers disguise their digital communications to deceive businesses, with guidance on identification and prevention.",
+      "articleSection": "Security tips"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Best free business checking account for small businesses",
+      "url": "https://www.bluevine.com/blog/best-free-business-checking-account",
+      "datePublished": "2026-03-23",
+      "author": {
+        "@type": "Person",
+        "name": "Ryan Hussey"
+      },
+      "description": "A comparison guide for top business checking accounts for small businesses in 2026, examining fees, interest rates, and features across online and traditional banks.",
+      "articleSection": "Business and cash flow management"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "How Bigfoot Kick uses Bluevine to grow with confidence",
+      "url": "https://www.bluevine.com/blog/bigfoot-kick-ecommerce-business-checking-case-study",
+      "datePublished": "2026-02-24",
+      "author": {
+        "@type": "Person",
+        "name": "Ryan Hussey"
+      },
+      "description": "A case study examining how Bigfoot Kick, a Charlotte-based online apparel brand, uses Bluevine's banking platform to manage revenue, international payments, and finances.",
+      "articleSection": "Business success stories"
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://support.bluevine.com/"
+  }
+}

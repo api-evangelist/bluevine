@@ -1,0 +1,74 @@
+{
+  "provider": "bluevine",
+  "blogURL": "https://www.bluevine.com/blog/",
+  "pulled": "2026-06-13",
+  "posts": [
+    {
+      "title": "2 in 3 small business owners lose sleep over their finances",
+      "url": "https://www.bluevine.com/blog/small-business-burnout-report",
+      "date": "2026-05-19",
+      "author": "Ryan Hussey",
+      "category": "Industry insights",
+      "readTime": "6 min read",
+      "description": "A survey of over 750 U.S. small business owners reveals that 71% experience significant financial stress affecting their sleep, decision-making, and personal income. The research identifies cash flow timing as the primary source of anxiety and shows that financial pressure is delaying business growth.",
+      "tags": [
+        "small business",
+        "financial stress",
+        "cash flow",
+        "burnout",
+        "business banking"
+      ]
+    },
+    {
+      "title": "How to identify and avoid spoofing attacks: Websites and email",
+      "url": "https://www.bluevine.com/blog/what-is-a-spoofing-attack",
+      "date": "2026-05-20",
+      "author": "Erin Barry",
+      "category": "Security tips",
+      "readTime": "9 min read",
+      "description": "This article explores spoofing attacks where scammers disguise their digital communications as coming from a different entity to deceive victims. The guide covers identifying fraudulent emails and websites, understanding attack mechanics, and implementing protective measures for businesses.",
+      "tags": [
+        "security",
+        "spoofing",
+        "phishing",
+        "fraud prevention",
+        "email security",
+        "small business security"
+      ]
+    },
+    {
+      "title": "Best free business checking account for small businesses",
+      "url": "https://www.bluevine.com/blog/best-free-business-checking-account",
+      "date": "2026-03-23",
+      "author": "Ryan Hussey",
+      "category": "Business and cash flow management",
+      "readTime": "8 min read",
+      "description": "This guide compares top business checking accounts for small businesses in 2026, examining fees, interest rates, and features. It distinguishes between truly free accounts and accounts with hidden costs, contrasting online banking platforms with traditional banks.",
+      "tags": [
+        "business checking",
+        "free checking",
+        "banking comparison",
+        "small business banking",
+        "APY",
+        "FDIC"
+      ]
+    },
+    {
+      "title": "How Bigfoot Kick uses Bluevine to grow with confidence",
+      "url": "https://www.bluevine.com/blog/bigfoot-kick-ecommerce-business-checking-case-study",
+      "date": "2026-02-24",
+      "author": "Ryan Hussey",
+      "category": "Business success stories",
+      "readTime": "7 min read",
+      "description": "This case study examines how Bigfoot Kick, a Charlotte-based online apparel brand, leverages Bluevine's banking platform to streamline revenue collection, manage international vendor payments, and organize finances through sub-accounts as the business scales.",
+      "tags": [
+        "case study",
+        "ecommerce",
+        "business checking",
+        "sub-accounts",
+        "Shopify",
+        "international payments"
+      ]
+    }
+  ]
+}
