@@ -1,10 +1,23 @@
 aid: bluevine
 name: Bluevine
-description: Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools. The platform integrates with QuickBooks Online, accounting software, and payment processors via Plaid open banking, providing small businesses with FDIC-insured deposits up to $3 million, competitive APY, and fast access to revolving credit up to $250,000.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+kind: company
+description: Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools for United States small and medium businesses. Bluevine does not publish a first-party public developer API or developer portal; external programmatic connectivity is delivered through the Plaid open-banking aggregator (with Finicity/Mastercard coverage also reported) and through native app integrations to QuickBooks Online, Xero, Wave, Expensify, Stripe, Square, Gusto, Cash App, and Venmo. Deposits are FDIC-insured up to $3 million through a sweep network, with revolving credit up to $250,000 issued by Celtic Bank.
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluevine.png
 url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/apis.yml
-created: 2026-06-13
-modified: 2026-06-13
+created: '2026-06-13'
+modified: '2026-07-23'
 specificationVersion: '0.19'
 tags:
   - Business Banking
@@ -17,12 +30,14 @@ tags:
   - Business Checking
   - Open Banking
   - Lending
+  - United States
+  - Aggregator Access
 
 apis:
 
   - aid: bluevine:business-checking
     name: Bluevine Business Checking
-    description: Fully integrated business checking account with no monthly fees on standard tier, high-yield APY, unlimited transactions, bill pay, automated accounts payable, professional invoicing, and FDIC insurance up to $3 million. Connects with accounting software via Plaid and native QuickBooks Online integration.
+    description: Fully integrated business checking account with no monthly fees on the standard tier, high-yield APY, unlimited transactions, bill pay, automated accounts payable, professional invoicing, and FDIC insurance up to $3 million through a sweep network. The account connects to accounting and payment software through the Plaid open-banking aggregator and a native QuickBooks Online integration; there is no first-party public API for the account itself.
     humanURL: https://www.bluevine.com/business-checking/
     baseURL: https://app.bluevine.com/
     tags:
@@ -32,15 +47,16 @@ apis:
       - Invoicing
       - ACH
       - Wire Transfer
+      - United States
     properties:
       - type: Documentation
-        url: https://www.bluevine.com/guides/checking/connecting-financial-apps
+        url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
       - type: Plans
         url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
 
   - aid: bluevine:line-of-credit
     name: Bluevine Line of Credit
-    description: Revolving business line of credit up to $250,000 issued by Celtic Bank, with no maintenance fees, fee-free ACH draws, and funding in as fast as 24 hours. Requires 625+ personal FICO, 12+ months in business, and $120,000+ annual revenue. Instant funding available for Bluevine Business Checking account holders.
+    description: Revolving business line of credit up to $250,000 issued by Celtic Bank, with no maintenance fees, fee-free ACH draws, and funding in as fast as 24 hours. Qualification requires a 625+ personal FICO score, 12+ months in business, and $120,000+ annual revenue, with instant funding available for Bluevine Business Checking account holders. Application and servicing are dashboard-only; there is no documented public lending API.
     humanURL: https://www.bluevine.com/line-of-credit/
     baseURL: https://app.bluevine.com/
     tags:
@@ -48,27 +64,53 @@ apis:
       - Business Lending
       - Working Capital
       - Revolving Credit
+      - United States
     properties:
       - type: Documentation
-        url: https://www.bluevine.com/guides/line-of-credit/how-to-apply
+        url: https://www.bluevine.com/line-of-credit/
       - type: Plans
         url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
 
+  - aid: bluevine:connected-apps
+    name: Bluevine Connected Apps & Financial Integrations
+    description: Bluevine's programmatic connectivity surface for third parties. Rather than a first-party public API, Bluevine exposes account and transaction data to external software through the Plaid open-banking aggregator (bank feeds carried with no additional Bluevine fee) plus a set of native app integrations that sync bills, transactions, categories, and payees. Documented integrations include QuickBooks Online, Xero, Wave, Expensify, Stripe, Square, Gusto, Cash App, and Venmo. Data access for aggregators is credential/OAuth-driven through Plaid (Finicity/Mastercard coverage also reported); Bluevine publishes no downloadable OpenAPI, Swagger, or Postman collection and no partner-facing FDX developer interface.
+    humanURL: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
+    tags:
+      - Open Banking
+      - Aggregator Access
+      - Plaid
+      - Accounting Integration
+      - QuickBooks
+      - Data Access
+      - United States
+    properties:
+      - type: Documentation
+        url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
+      - type: Documentation
+        url: https://www.bluevine.com/accountants-and-bookkeepers
+
 common:
 
-  - type: DomainSecurity
-    url: security/bluevine-domain-security.yml
   - type: Website
     url: https://www.bluevine.com/
 
   - type: Documentation
     url: https://www.bluevine.com/guides/
 
+  - type: Support
+    url: https://support.bluevine.com/
+
   - type: Blog
     url: https://www.bluevine.com/blog/
 
+  - type: Newsroom
+    url: https://www.bluevine.com/newsroom
+
   - type: Pricing
     url: https://www.bluevine.com/business-checking/
+
+  - type: PrivacyPolicy
+    url: https://www.bluevine.com/privacy-policy
 
   - type: LinkedIn
     url: https://www.linkedin.com/company/bluevine
@@ -76,11 +118,11 @@ common:
   - type: X
     url: https://x.com/bluevine
 
-  - type: GitHubOrg
+  - type: GitHubOrganization
     url: https://github.com/bluevine-dev
 
-  - type: HelpCenter
-    url: https://support.bluevine.com/
+  - type: DomainSecurity
+    url: security/bluevine-domain-security.yml
 
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml

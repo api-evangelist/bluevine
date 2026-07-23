@@ -1,0 +1,101 @@
+reviewer: API Evangelist
+date: '2026-07-23'
+provider: Bluevine
+slug: bluevine
+domain: bluevine.com
+tier: digital
+segment: US small business digital bank (neobank) + non-bank lender
+
+summary: >-
+  Bluevine is a digital small business banking and lending platform. It has no
+  first-party public developer API and no developer portal. External
+  programmatic connectivity is aggregator-only, delivered through Plaid, with
+  Finicity/Mastercard coverage also reported, plus a set of native app
+  integrations. The honest API surface is aggregator + partner integrations, not
+  a documented first-party API. Nothing was padded or fabricated.
+
+developer_portal:
+  present: false
+  url: ""
+  notes: >-
+    developer.bluevine.com, developers.bluevine.com, docs.bluevine.com,
+    api.bluevine.com all fail to resolve (curl exit 000). /developers and /api
+    on the marketing site return HTTP 404. No API reference, catalog, or
+    partner-facing developer interface is published.
+
+github_org:
+  url: https://github.com/bluevine-dev
+  public_repos: 4
+  notes: >-
+    Org "Bluevine Dev" exists but hosts only internal/fork tooling
+    (airflow, pyvis, pre-commit-mypy, django-beginners-guide). No API SDK,
+    client library, or spec is published here.
+
+downloadable_specs:
+  openapi: false
+  swagger: false
+  postman: false
+  notes: >-
+    No OpenAPI/Swagger/Postman artifacts are publicly downloadable. Nothing was
+    harvested into openapi/ because no real spec exists to harvest.
+
+auth_model:
+  first_party_api: none
+  aggregator: >-
+    Data access to external software is credential/OAuth-driven through the
+    Plaid open-banking aggregator (bank feeds carried at no additional Bluevine
+    fee). Finicity (Mastercard) coverage of Bluevine is also reported by
+    third-party trackers. There is no published first-party OAuth2/OIDC,
+    API-key, or mTLS developer interface.
+
+open_finance_posture:
+  fdx_participation: not_documented
+  cfpb_1033_posture: not_documented
+  access: aggregator-only
+  aggregators:
+    - Plaid
+    - Finicity (Mastercard) — third-party-reported coverage
+  notes: >-
+    Bluevine does not publish a documented FDX first-party API or a stated CFPB
+    Section 1033 data-access developer interface. Consumer-permissioned data
+    sharing is mediated by aggregators (primarily Plaid). US open finance here is
+    voluntary/aggregator-mediated rather than a mandated first-party contract.
+
+native_integrations:
+  apps:
+    - QuickBooks Online
+    - Xero
+    - Wave
+    - Expensify
+    - Stripe
+    - Square
+    - Gusto
+    - Cash App
+    - Venmo
+  source: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
+
+products_verified:
+  - name: Business Checking
+    url: https://www.bluevine.com/business-checking/
+    http_status: 200
+  - name: Line of Credit
+    url: https://www.bluevine.com/line-of-credit/
+    http_status: 200
+  - name: Connecting Financial Apps (integrations)
+    url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
+    http_status: 200
+  - name: Accountant & Bookkeeper Dashboard
+    url: https://www.bluevine.com/accountants-and-bookkeepers
+    http_status: 200
+
+spec_provenance: >-
+  No specs added. All apis[] entries are real product/connectivity surfaces
+  described from Bluevine's own marketing and help-center pages (verified HTTP
+  200). The connected-apps entry documents the genuine aggregator + native
+  integration surface rather than an invented API.
+
+recommendation: >-
+  Represent Bluevine honestly as a digital SMB bank with an aggregator-only
+  (Plaid/Finicity) external data surface and native accounting/payments
+  integrations, with no first-party developer API. Revisit if a first-party
+  developer portal or CFPB 1033 / FDX developer interface is published.
