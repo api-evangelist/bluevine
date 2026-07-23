@@ -1,0 +1,108 @@
+﻿# Bluevine
+
+> Bluevine is a U.S.-based fintech company that offers modern business banking and funding solutions tailored to small businesses, startups, freelancers, and entrepreneurs. From high-yield checking accounts and lines of credit to payment tools and invoicing, Bluevine helps small business owners manage their finances with confidence.
+
+Bluevine’s all-in-one platform is designed to simplify cash flow management, reduce administrative overhead, and support business growth through flexible, tech-forward financial products. Whether you're just starting out or scaling operations, Bluevine provides the tools and insights needed to stay on top of your business finances.
+
+
+## Bluevine Products
+- [Business Loans](https://www.bluevine.com/business-loans): Overview of Bluevine’s lending solutions for small businesses.
+- [Business Line of Credit](https://www.bluevine.com/business-loans/line-of-credit): Flexible revolving credit to manage day-to-day cash flow.
+- [Apply in Minutes](https://www.bluevine.com/business-loans/line-of-credit/apply-in-minutes): Quick online application for a business line of credit.
+- [Term Loan](https://www.bluevine.com/business-loans/term-loan): Fixed-term financing to support long-term business investments.
+- [SBA Loan](https://www.bluevine.com/business-loans/sba-loan): Access SBA-backed loans for small businesses with competitive terms.
+- [Business Checking](https://www.bluevine.com/business-checking): Fee-free business checking with interest-earning potential.
+- [Business Checking Features](https://www.bluevine.com/business-checking/features): Key features of Bluevine’s digital-first checking account.
+- [Checking Interest Rate](https://www.bluevine.com/business-checking/interest-rate): Learn how your checking balance can earn interest.
+- [Plans and Pricing](https://www.bluevine.com/business-checking/plans-and-pricing): Compare account tiers and features.
+- [Sub-Accounts](https://www.bluevine.com/business-checking/sub-accounts): Organize your finances using labeled sub-accounts.
+- [No Monthly Bank Fees](https://www.bluevine.com/business-checking/no-monthly-bank-fees): Avoid common banking fees with Bluevine.
+- [Debit Card](https://www.bluevine.com/business-checking/debit-card): A business debit card with security and convenience.
+- [Accounts Payable](https://www.bluevine.com/business-checking/accounts-payable): Manage vendor payments with built-in automation.
+- [Payments](https://www.bluevine.com/business-checking/payments): Centralized payment tools built into your account.
+- [Receive International Payments](https://www.bluevine.com/business-checking/international-payments/receive): Accept payments from abroad in local currencies.
+- [Premier Checking](https://www.bluevine.com/business-checking/premier): Premium business checking with additional perks.
+- [Send International Payments](https://www.bluevine.com/business-checking/international-payments/send): Send secure cross-border payments.
+- [Plus Checking](https://www.bluevine.com/business-checking/plus): Enhanced checking with more robust banking features.
+- [FDIC Protection](https://www.bluevine.com/business-checking/fdic-protection): Learn how your funds are protected by the FDIC.
+- [Cash Networks](https://www.bluevine.com/business-checking/cash-networks): Access to ATMs and cash deposit locations nationwide.
+- [Treasury](https://www.bluevine.com/business-checking/treasury): Optimize cash flow with treasury and sweep tools.
+- [Accept Payments](https://www.bluevine.com/accept-payments): Tools to help your business get paid faster and easier.
+- [Invoicing](https://www.bluevine.com/accept-payments/invoicing): Create and send invoices to clients directly from your account.
+- [Payment Links](https://www.bluevine.com/accept-payments/payment-links): Share custom payment links for easy customer transactions.
+
+
+## Bluevine Solutions
+- [Small Business Solutions](https://www.bluevine.com/solutions/small-business): Business banking and financing tools designed for growing small businesses.
+- [Self-Employed Solutions](https://www.bluevine.com/solutions/self-employed): Flexible financial services built for freelancers, contractors, and sole proprietors.
+- [Startup Solutions](https://www.bluevine.com/solutions/startup): Financial products tailored to help startups manage cash and scale quickly.
+- [Accountants and Bookkeepers](https://www.bluevine.com/accountants-and-bookkeepers): Banking and financial tools designed to streamline workflows for accounting professionals.
+
+
+## Bluevine Resources
+- [FAQ](https://www.bluevine.com/faq): Find answers to common questions about Bluevine’s products and services.
+- [BOSS Report](https://www.bluevine.com/boss-report): Insights into small business financial trends across the U.S.
+- [Security](https://www.bluevine.com/security): Learn how Bluevine protects your business with advanced security protocols.
+- [Accountant Directory](https://www.bluevine.com/accountant-directory): Browse verified accountants who work with Bluevine clients.
+- [Checking Interest](https://www.bluevine.com/checking-interest): Detailed information about interest on Bluevine checking accounts.
+- [Lending Restricted Industries](https://www.bluevine.com/lending-restricted-industries): Industries not eligible for Bluevine credit products.
+- [Banking Restricted Industries](https://www.bluevine.com/banking-restricted-industries): Restricted categories for Bluevine banking services.
+- [Using a Line of Credit](https://www.bluevine.com/guides/line-of-credit/how-to-use-line-of-credit): Tips for managing and drawing from your line of credit.
+- [How to Apply for a Line of Credit](https://www.bluevine.com/guides/line-of-credit/how-to-apply): Step-by-step guide to applying for a business line of credit.
+- [Maintain Your Line of Credit](https://www.bluevine.com/guides/line-of-credit/maintain-line-of-credit): Best practices for keeping your credit line in good standing.
+- [Connect External Bank Accounts (Line of Credit)](https://www.bluevine.com/guides/line-of-credit/connect-external-bank-accounts): Link outside accounts to support your credit application.
+- [Earn High APY with Checking](https://www.bluevine.com/guides/checking/earn-high-apy-interest-rate): Learn how to earn interest on your checking balance.
+- [How to Apply for Checking](https://www.bluevine.com/guides/checking/how-to-apply): Steps to open your Bluevine business checking account.
+- [How to Add Funds](https://www.bluevine.com/guides/checking/add-funds): Funding options for your Bluevine checking account.
+- [Fund and Activate Your Account](https://www.bluevine.com/guides/checking/fund-and-activate): Complete your Bluevine account setup.
+- [Connecting Financial Apps](https://www.bluevine.com/guides/checking/connecting-financial-apps): Sync your Bluevine account with external financial tools.
+- [Connect External Bank Accounts (Checking)](https://www.bluevine.com/guides/checking/connect-external-bank-accounts): Link outside bank accounts to your Bluevine checking.
+- [Bill Payments](https://www.bluevine.com/guides/checking/bill-payments): Pay vendors and manage bills directly from your Bluevine account.
+- [Debit Card Guide](https://www.bluevine.com/guides/checking/debit-card): How to activate and use your Bluevine business debit card.
+- [Virtual Debit Cards](https://www.bluevine.com/guides/checking/virtual-debit-cards): Issue digital debit cards for flexible and secure spending.
+- [Sub-Accounts 101](https://www.bluevine.com/guides/checking/sub-accounts-101): Guide to setting up and managing sub-accounts.
+
+
+## Bluevine Blogs
+- [Types of Business Investment Accounts](https://www.bluevine.com/blog/types-of-business-investment-accounts): Compare different investment account types available for small businesses.
+- [Debt-to-Income Ratio for Small Business](https://www.bluevine.com/blog/debt-to-income-ratio-for-small-business): Understand and calculate your DTI ratio to assess loan readiness.
+- [9 KPIs for Physician Practices](https://www.bluevine.com/blog/9-kpis-for-physician-practices): Track key performance indicators to improve healthcare business performance.
+- [Guide to ACH Transfers and Payments](https://www.bluevine.com/blog/guide-to-ach-transfers-and-payments): Learn how ACH works and when to use it for business transactions.
+- [Personal Checking vs. Business Checking](https://www.bluevine.com/blog/personal-checking-vs-business-checking): Understand the key differences and why business accounts matter.
+- [Guide to International Business Payments](https://www.bluevine.com/blog/guide-to-international-business-payments): Simplify global transactions with tips for sending and receiving payments.
+- [Top Small Business Expenses and How to Pay](https://www.bluevine.com/blog/top-small-business-expenses-and-how-to-pay): Breakdown of common costs and the best payment methods for each.
+- [Opening a Bank Account for an LLC](https://www.bluevine.com/blog/opening-bank-account-llc): Everything you need to open a business account for your LLC.
+- [Multiple Debit Cards for Business Checking](https://www.bluevine.com/blog/multiple-debit-cards-for-business-checking-account): Manage spending and team access with additional debit cards.
+- [How to Split Profits with Your Business Partner](https://www.bluevine.com/blog/how-to-split-profits-with-your-business-partner): Approaches for fair and strategic profit-sharing in partnerships.
+- [Benefits of Same-Day ACH Payments](https://www.bluevine.com/blog/benefits-of-same-day-ach-payments): Speed up business transactions with same-day ACH transfers.
+- [What Is Invoice Financing?](https://www.bluevine.com/blog/what-is-invoice-factoring): Learn how to get a cash advance on unpaid invoices as a small business with invoice financing.
+- [What Do You Need to Open a Business Checking Account](https://www.bluevine.com/blog/what-do-you-need-to-open-a-business-checking-account): A guide to documents and eligibility requirements like tax ID, personal ID, and business registration needed to open a business checking account online.
+- [Business Loan Types](https://www.bluevine.com/blog/business-loan-types): Overview of common small business financing options including term loans, lines of credit, SBA financing, invoice factoring, and equipment loans.
+- [What Is a High-Yield Business Checking Account](https://www.bluevine.com/blog/what-is-a-high-yield-business-checking-account): Learn how high-yield business checking accounts let you earn interest on your operating balance, what APY rates to expect, qualification requirements, and the benefits of online banking tools, daily compounding, and FDIC insurance.
+- [Business Checking Account Requirements](https://www.bluevine.com/blog/business-checking-account-requirements): Eligibility criteria and documentation required to open a business checking account at Bluevine.
+- [How to Get a Business Line of Credit](https://www.bluevine.com/blog/how-to-get-business-line-of-credit): Step-by-step guide to applying for and drawing funds from a business line of credit.
+- [Sweep Networks for Increased FDIC Insurance Coverage](https://www.bluevine.com/blog/sweep-networks-for-increased-fdic-insurance-coverage): Learn how sweep networks distribute deposits across multiple FDIC-insured banks to extend coverage beyond $250,000, reduce risk in case of bank failures, and protect large business balances, without changing your banking experience.
+- [What Are Business Term Loans](https://www.bluevine.com/blog/what-are-business-term-loans): Details about business term loans such as fixed-rate installments, typical length, collateral, and ideal use cases.
+- [Guide to Small Business Loans](https://www.bluevine.com/blog/guide-to-small-business-loans): Updated 2025 primer on choosing between lines of credit, SBA loans, term loans, and other financing based on business needs.
+- [Open Business Bank Account Online](https://www.bluevine.com/blog/open-business-bank-account-online): Insights into the speed and simplicity of opening a Bluevine checking account online, often in under one minute with digital identity verification.
+- [Business Loan Requirements](https://www.bluevine.com/blog/business-loan-requirements): What lenders typically require: business credit registration, repayment plan, possible collateral, and credit history.
+- [Business Line of Credit vs Business Loan](https://www.bluevine.com/blog/business-line-of-credit-vs-business-loan): Comparison of term loans and revolving credit lines, including pros/cons and business scenarios for each.
+- [Growing Business With Line of Credit](https://www.bluevine.com/blog/growing-business-with-line-of-credit): Best practices for using a line of credit to fund expansion, manage cash flow cycles, and build credit.
+- [Term Loans for Small Businesses](https://www.bluevine.com/blog/term-loans-small-businesses): How term loans function for long-term capital needs, their affordability, and collateral considerations.
+- [Startup Business Loans](https://www.bluevine.com/blog/startup-business-loans): Learn how to navigate startup financing options like term loans, lines of credit, and SBA loans. This guide covers eligibility requirements, application tips, lender selection, credit readiness, and strategies to improve your chances of approval as a new business.
+- [Best Small Business Bank Account](https://www.bluevine.com/blog/best-small-business-bank-account): Guidance on selecting a business banking provider based on fees, features, interest, and flexibility.
+- [Grant Opportunities for Minority-Owned Small Businesses](https://www.bluevine.com/blog/grant-opportunities-for-minority-owned-small-businesses): Explore over 20 public and private grant programs available to minority-owned businesses, including application tips and links to national and nonprofit funding sources. The article also compares grants vs. loans and shares alternative financing options.
+- [Profit First Cash Management Method](https://www.bluevine.com/blog/profit-first-cash-management-method): Discover how the Profit First method helps small businesses allocate revenue toward profit before expenses to improve cash flow, financial clarity, and budgeting discipline. Learn the core steps, benefits, limitations, and how to set it up using sub-accounts and automated transfers.
+- [How to Choose the Best Business Checking Account](https://www.bluevine.com/blog/how-to-choose-the-best-business-checking-account): Tips for comparing checking accounts. Consider features like automation, mobile access, fees, ATM access, and interest rates.
+- [How to Find the Best Online Bank Account for Small Business](https://www.bluevine.com/blog/how-to-find-best-online-bank-account-for-small-business): A practical guide to evaluating online business bank accounts, covering key considerations like security, fees, interest rates, account features, integrations, scalability, and how to choose a provider that matches your cash‑flow and business model.
+- [Types of Business Accounts With High APY](https://www.bluevine.com/blog/types-of-business-accounts-with-high-apy): Review of business accounts that offer high annual percentage yield (APY), including interest-earning checking.
+- [Tips for Managing Small Business Invoices](https://www.bluevine.com/blog/tips-for-managing-small-business-invoices): Improve cash flow with invoicing best practices.
+
+
+## Bluevine Company
+- [Why Bluevine](https://www.bluevine.com/why-bluevine): Discover what sets Bluevine apart in business banking.
+- [About Bluevine](https://www.bluevine.com/about): Learn more about Bluevine’s mission, values, and leadership team.
+- [Customer Reviews](https://www.bluevine.com/reviews): See what real customers are saying about their Bluevine experience.
+- [Careers](https://www.bluevine.com/careers): Join the Bluevine team and help shape the future of small business banking.
+- [Partner with Bluevine](https://www.bluevine.com/partner): Explore partnership opportunities to grow your business with Bluevine.
+- [Accountant Partner Program](https://www.bluevine.com/partner/accountants): Specialized solutions and support for accounting partners.

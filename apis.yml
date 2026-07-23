@@ -18,6 +18,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluevine.p
 url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-07-23'
+enriched: '2026-07-23'
 specificationVersion: '0.19'
 tags:
   - Business Banking
@@ -111,6 +112,18 @@ common:
 
   - type: PrivacyPolicy
     url: https://www.bluevine.com/privacy-policy
+
+  - type: TermsOfService
+    url: https://app.bluevine.com/contracts/registrationterms
+
+  - type: SignUp
+    url: https://app.bluevine.com/signup/checking
+
+  - type: Login
+    url: https://app.bluevine.com/login
+
+  - type: LLMsTxt
+    url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/llms/bluevine-llms.txt
 
   - type: LinkedIn
     url: https://www.linkedin.com/company/bluevine
