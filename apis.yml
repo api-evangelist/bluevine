@@ -11,13 +11,13 @@ accessModel:
   label: Paid
   confidence: medium
   source:
-  - plans
+    - plans
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluevine.png
 url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/apis.yml
 created: '2026-06-13'
-modified: '2026-07-23'
+modified: '2026-07-25'
 enriched: '2026-07-23'
 specificationVersion: '0.19'
 tags:
@@ -36,60 +36,7 @@ tags:
 
 apis:
 
-  - aid: bluevine:business-checking
-    name: Bluevine Business Checking
-    description: Fully integrated business checking account with no monthly fees on the standard tier, high-yield APY, unlimited transactions, bill pay, automated accounts payable, professional invoicing, and FDIC insurance up to $3 million through a sweep network. The account connects to accounting and payment software through the Plaid open-banking aggregator and a native QuickBooks Online integration; there is no first-party public API for the account itself.
-    humanURL: https://www.bluevine.com/business-checking/
-    baseURL: https://app.bluevine.com/
-    tags:
-      - Business Checking
-      - Banking
-      - Bill Pay
-      - Invoicing
-      - ACH
-      - Wire Transfer
-      - United States
-    properties:
-      - type: Documentation
-        url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
-      - type: Plans
-        url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
-
-  - aid: bluevine:line-of-credit
-    name: Bluevine Line of Credit
-    description: Revolving business line of credit up to $250,000 issued by Celtic Bank, with no maintenance fees, fee-free ACH draws, and funding in as fast as 24 hours. Qualification requires a 625+ personal FICO score, 12+ months in business, and $120,000+ annual revenue, with instant funding available for Bluevine Business Checking account holders. Application and servicing are dashboard-only; there is no documented public lending API.
-    humanURL: https://www.bluevine.com/line-of-credit/
-    baseURL: https://app.bluevine.com/
-    tags:
-      - Line of Credit
-      - Business Lending
-      - Working Capital
-      - Revolving Credit
-      - United States
-    properties:
-      - type: Documentation
-        url: https://www.bluevine.com/line-of-credit/
-      - type: Plans
-        url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/plans/bluevine-plans-pricing.yml
-
-  - aid: bluevine:connected-apps
-    name: Bluevine Connected Apps & Financial Integrations
-    description: Bluevine's programmatic connectivity surface for third parties. Rather than a first-party public API, Bluevine exposes account and transaction data to external software through the Plaid open-banking aggregator (bank feeds carried with no additional Bluevine fee) plus a set of native app integrations that sync bills, transactions, categories, and payees. Documented integrations include QuickBooks Online, Xero, Wave, Expensify, Stripe, Square, Gusto, Cash App, and Venmo. Data access for aggregators is credential/OAuth-driven through Plaid (Finicity/Mastercard coverage also reported); Bluevine publishes no downloadable OpenAPI, Swagger, or Postman collection and no partner-facing FDX developer interface.
-    humanURL: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
-    tags:
-      - Open Banking
-      - Aggregator Access
-      - Plaid
-      - Accounting Integration
-      - QuickBooks
-      - Data Access
-      - United States
-    properties:
-      - type: Documentation
-        url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
-      - type: Documentation
-        url: https://www.bluevine.com/accountants-and-bookkeepers
-
+    []
 common:
 
   - type: Website
@@ -146,6 +93,10 @@ common:
   - type: FinOps
     url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/finops/bluevine-finops.yml
 
+  - type: ProductPage
+    url: https://www.bluevine.com/line-of-credit/
+  - type: ProductPage
+    url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
