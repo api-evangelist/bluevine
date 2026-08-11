@@ -39,6 +39,8 @@ apis:
     []
 common:
 
+  - type: GettingStarted
+    url: https://www.bluevine.com/help-center/getting-started
   - type: Website
     url: https://www.bluevine.com/
 
