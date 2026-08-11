@@ -65,7 +65,7 @@ common:
   - type: TermsOfService
     url: https://app.bluevine.com/contracts/registrationterms
 
-  - type: SignUp
+  - type: Signup
     url: https://app.bluevine.com/signup/checking
 
   - type: Login
