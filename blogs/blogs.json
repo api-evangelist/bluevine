@@ -2,22 +2,22 @@
   "repo": "bluevine",
   "feeds": [
     {
-      "source": "https://www.bluevine.com/guides/",
-      "feed_url": "https://www.bluevine.com/guides/",
+      "source": "https://support.bluevine.com/",
+      "feed_url": "https://support.bluevine.com/",
       "title": "",
       "saved": 0,
       "method": "none"
     },
     {
-      "source": "https://support.bluevine.com/",
-      "feed_url": "https://support.bluevine.com/",
+      "source": "https://www.bluevine.com/guides/",
+      "feed_url": "https://www.bluevine.com/guides/",
       "title": "",
       "saved": 0,
       "method": "none"
     }
   ],
   "post_count": 2,
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "agent_pulled": "2026-07-04",
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
