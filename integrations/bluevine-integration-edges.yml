@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/bluevine/integrations
 - https://n8n.io/integrations/bluevine/
@@ -10,7 +10,25 @@ checked:
 - https://monid.ai/tools/bluevine
 - https://n8n.io/integrations/bluevine/
 - https://zapier.com/apps/bluevine/integrations
+- servicetitan/integrations/servicetitan-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: ServiceTitan (own)
+  partner: servicetitan
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.servicetitan.com/partner/business-financing-with-bluevine
+  mirror_of: servicetitan/integrations/servicetitan-integration-edges.yml
+  apps:
+  - Business Financing with Bluevine
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Payments & Financing
 templates: []
