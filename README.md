@@ -64,8 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools for United States small and medium businesses. Deposits are FDIC-insured up to $3 million through a sweep network, with revolving credit up to $250,000 issued by Celtic Bank.
+Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools for United States small and medium businesses. Bluevine does not publish a first-party public developer API or developer portal; external programmatic connectivity is delivered through the Plaid open-banking aggregator (with Finicity/Mastercard coverage also reported) and through native app integrations to QuickBooks Online, Xero, Wave, Expensify, Stripe, Square, Gusto, Cash App, and Venmo. Deposits are FDIC-insured up to $3 million through a sweep network, with revolving credit up to $250,000 issued by Celtic Bank.
 
-Bluevine does not publish a first-party public developer API or developer portal. External programmatic connectivity is aggregator-only — delivered through the Plaid open-banking aggregator (with Finicity/Mastercard coverage also reported) — plus native app integrations to QuickBooks Online, Xero, Wave, Expensify, Stripe, Square, Gusto, Cash App, and Venmo.
+**Areas:** Business Banking · Small Business · Fintech · Line of Credit · Bill Pay · Invoicing · Cash Flow · Business Checking · Open Banking · Lending · United States · Aggregator Access
 
-**Website:** https://www.bluevine.com/
+## Bluevine on APIs.io
+
+Everything profiled for Bluevine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bluevine/](https://apis.io/providers/bluevine/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bluevine Context](https://apis.io/jsonld/bluevine/bluevine/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bluevine Domain Security](https://apis.io/security/bluevine/bluevine-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bluevine Plans Pricing](https://apis.io/plans/bluevine/bluevine-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bluevine Rate Limits](https://apis.io/rate-limits/bluevine/bluevine-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bluevine Finops](https://apis.io/finops/bluevine/bluevine-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bluevine.com/)
+- [Documentation](https://www.bluevine.com/guides/)
+- [Getting started](https://www.bluevine.com/help-center/getting-started)
+- [Pricing](https://www.bluevine.com/business-checking/)
+- [Support](https://support.bluevine.com/)
+- [Blog](https://www.bluevine.com/blog/)
+- [Terms of service](https://app.bluevine.com/contracts/registrationterms)
+- [Privacy policy](https://www.bluevine.com/privacy-policy)
+- [GitHub](https://github.com/bluevine-dev)
+
+## API Evangelist rating
+
+**Kin Score 19.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 35.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bluevine/](https://apis.io/providers/bluevine/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bluevine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bluevine/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
